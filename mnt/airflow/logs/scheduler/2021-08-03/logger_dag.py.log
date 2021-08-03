@@ -1,0 +1,1447 @@
+[2021-08-03 07:04:24,368] {scheduler_job.py:155} INFO - Started process (PID=33) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:24,370] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:04:24,370] {logging_mixin.py:112} INFO - [2021-08-03 07:04:24,370] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:24,386] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:24,405] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:04:24,433] {scheduler_job.py:1315} INFO - Created <DagRun logger_dag @ 2021-08-02 00:00:00+00:00: scheduled__2021-08-02T00:00:00+00:00, externally triggered: False>
+[2021-08-03 07:04:24,445] {scheduler_job.py:771} INFO - Examining DAG run <DagRun logger_dag @ 2021-08-02 00:00:00+00:00: scheduled__2021-08-02T00:00:00+00:00, externally triggered: False>
+[2021-08-03 07:04:24,461] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:04:24,464] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: logger_dag.t1 2021-08-02 00:00:00+00:00 [success]> in ORM
+[2021-08-03 07:04:24,470] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.102 seconds
+[2021-08-03 07:04:25,355] {scheduler_job.py:155} INFO - Started process (PID=35) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:25,358] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:04:25,358] {logging_mixin.py:112} INFO - [2021-08-03 07:04:25,358] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:25,370] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:25,394] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:04:25,398] {scheduler_job.py:771} INFO - Examining DAG run <DagRun logger_dag @ 2021-08-02 00:00:00+00:00: scheduled__2021-08-02T00:00:00+00:00, externally triggered: False>
+[2021-08-03 07:04:25,417] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:04:25,421] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: logger_dag.t2 2021-08-02 00:00:00+00:00 [scheduled]> in ORM
+[2021-08-03 07:04:25,427] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.071 seconds
+[2021-08-03 07:04:26,377] {scheduler_job.py:155} INFO - Started process (PID=37) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:26,379] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:04:26,380] {logging_mixin.py:112} INFO - [2021-08-03 07:04:26,380] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:26,400] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:26,435] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:04:26,440] {scheduler_job.py:771} INFO - Examining DAG run <DagRun logger_dag @ 2021-08-02 00:00:00+00:00: scheduled__2021-08-02T00:00:00+00:00, externally triggered: False>
+[2021-08-03 07:04:26,455] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:04:26,458] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.081 seconds
+[2021-08-03 07:04:27,378] {scheduler_job.py:155} INFO - Started process (PID=47) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:27,392] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:04:27,394] {logging_mixin.py:112} INFO - [2021-08-03 07:04:27,394] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:27,409] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:27,462] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:04:27,479] {scheduler_job.py:771} INFO - Examining DAG run <DagRun logger_dag @ 2021-08-02 00:00:00+00:00: scheduled__2021-08-02T00:00:00+00:00, externally triggered: False>
+[2021-08-03 07:04:27,509] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:04:27,511] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.133 seconds
+[2021-08-03 07:04:28,400] {scheduler_job.py:155} INFO - Started process (PID=49) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:28,412] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:04:28,413] {logging_mixin.py:112} INFO - [2021-08-03 07:04:28,413] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:28,452] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:28,507] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:04:28,516] {scheduler_job.py:771} INFO - Examining DAG run <DagRun logger_dag @ 2021-08-02 00:00:00+00:00: scheduled__2021-08-02T00:00:00+00:00, externally triggered: False>
+[2021-08-03 07:04:28,547] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:04:28,551] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.151 seconds
+[2021-08-03 07:04:29,399] {scheduler_job.py:155} INFO - Started process (PID=55) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:29,403] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:04:29,404] {logging_mixin.py:112} INFO - [2021-08-03 07:04:29,404] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:29,437] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:29,491] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:04:29,499] {scheduler_job.py:771} INFO - Examining DAG run <DagRun logger_dag @ 2021-08-02 00:00:00+00:00: scheduled__2021-08-02T00:00:00+00:00, externally triggered: False>
+[2021-08-03 07:04:29,532] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:04:29,536] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.137 seconds
+[2021-08-03 07:04:30,402] {scheduler_job.py:155} INFO - Started process (PID=61) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:30,410] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:04:30,411] {logging_mixin.py:112} INFO - [2021-08-03 07:04:30,411] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:30,446] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:30,475] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:04:30,486] {scheduler_job.py:771} INFO - Examining DAG run <DagRun logger_dag @ 2021-08-02 00:00:00+00:00: scheduled__2021-08-02T00:00:00+00:00, externally triggered: False>
+[2021-08-03 07:04:30,509] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:04:30,523] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.121 seconds
+[2021-08-03 07:04:31,411] {scheduler_job.py:155} INFO - Started process (PID=67) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:31,420] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:04:31,421] {logging_mixin.py:112} INFO - [2021-08-03 07:04:31,421] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:31,439] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:31,466] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:04:31,473] {scheduler_job.py:771} INFO - Examining DAG run <DagRun logger_dag @ 2021-08-02 00:00:00+00:00: scheduled__2021-08-02T00:00:00+00:00, externally triggered: False>
+[2021-08-03 07:04:31,515] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:04:31,519] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.108 seconds
+[2021-08-03 07:04:32,418] {scheduler_job.py:155} INFO - Started process (PID=73) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:32,420] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:04:32,421] {logging_mixin.py:112} INFO - [2021-08-03 07:04:32,421] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:32,442] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:32,476] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:04:32,482] {scheduler_job.py:771} INFO - Examining DAG run <DagRun logger_dag @ 2021-08-02 00:00:00+00:00: scheduled__2021-08-02T00:00:00+00:00, externally triggered: False>
+[2021-08-03 07:04:32,500] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:04:32,503] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.085 seconds
+[2021-08-03 07:04:33,424] {scheduler_job.py:155} INFO - Started process (PID=75) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:33,426] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:04:33,427] {logging_mixin.py:112} INFO - [2021-08-03 07:04:33,427] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:33,444] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:33,477] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:04:33,482] {scheduler_job.py:771} INFO - Examining DAG run <DagRun logger_dag @ 2021-08-02 00:00:00+00:00: scheduled__2021-08-02T00:00:00+00:00, externally triggered: False>
+[2021-08-03 07:04:33,497] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:04:33,500] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.076 seconds
+[2021-08-03 07:04:34,432] {scheduler_job.py:155} INFO - Started process (PID=81) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:34,434] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:04:34,435] {logging_mixin.py:112} INFO - [2021-08-03 07:04:34,435] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:34,452] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:34,478] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:04:34,484] {scheduler_job.py:771} INFO - Examining DAG run <DagRun logger_dag @ 2021-08-02 00:00:00+00:00: scheduled__2021-08-02T00:00:00+00:00, externally triggered: False>
+[2021-08-03 07:04:34,504] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:04:34,507] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.074 seconds
+[2021-08-03 07:04:35,450] {scheduler_job.py:155} INFO - Started process (PID=83) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:35,454] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:04:35,455] {logging_mixin.py:112} INFO - [2021-08-03 07:04:35,455] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:35,492] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:35,550] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:04:35,566] {scheduler_job.py:771} INFO - Examining DAG run <DagRun logger_dag @ 2021-08-02 00:00:00+00:00: scheduled__2021-08-02T00:00:00+00:00, externally triggered: False>
+[2021-08-03 07:04:35,599] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:04:35,603] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.153 seconds
+[2021-08-03 07:04:36,467] {scheduler_job.py:155} INFO - Started process (PID=89) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:36,472] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:04:36,473] {logging_mixin.py:112} INFO - [2021-08-03 07:04:36,472] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:36,504] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:36,539] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:04:36,551] {scheduler_job.py:771} INFO - Examining DAG run <DagRun logger_dag @ 2021-08-02 00:00:00+00:00: scheduled__2021-08-02T00:00:00+00:00, externally triggered: False>
+[2021-08-03 07:04:36,577] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:04:36,580] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.113 seconds
+[2021-08-03 07:04:37,468] {scheduler_job.py:155} INFO - Started process (PID=91) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:37,471] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:04:37,472] {logging_mixin.py:112} INFO - [2021-08-03 07:04:37,472] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:37,497] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:37,527] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:04:37,535] {scheduler_job.py:771} INFO - Examining DAG run <DagRun logger_dag @ 2021-08-02 00:00:00+00:00: scheduled__2021-08-02T00:00:00+00:00, externally triggered: False>
+[2021-08-03 07:04:37,561] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:04:37,564] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.097 seconds
+[2021-08-03 07:04:38,472] {scheduler_job.py:155} INFO - Started process (PID=97) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:38,481] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:04:38,482] {logging_mixin.py:112} INFO - [2021-08-03 07:04:38,481] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:38,508] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:38,567] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:04:38,578] {scheduler_job.py:771} INFO - Examining DAG run <DagRun logger_dag @ 2021-08-02 00:00:00+00:00: scheduled__2021-08-02T00:00:00+00:00, externally triggered: False>
+[2021-08-03 07:04:38,598] {logging_mixin.py:112} INFO - [2021-08-03 07:04:38,598] {dagrun.py:320} INFO - Marking run <DagRun logger_dag @ 2021-08-02 00:00:00+00:00: scheduled__2021-08-02T00:00:00+00:00, externally triggered: False> successful
+[2021-08-03 07:04:38,606] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:04:38,609] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.137 seconds
+[2021-08-03 07:04:39,495] {scheduler_job.py:155} INFO - Started process (PID=99) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:39,498] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:04:39,500] {logging_mixin.py:112} INFO - [2021-08-03 07:04:39,500] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:39,519] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:39,562] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:04:39,580] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:04:39,583] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.088 seconds
+[2021-08-03 07:04:40,493] {scheduler_job.py:155} INFO - Started process (PID=105) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:40,496] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:04:40,496] {logging_mixin.py:112} INFO - [2021-08-03 07:04:40,496] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:40,512] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:40,537] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:04:40,547] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:04:40,549] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.056 seconds
+[2021-08-03 07:04:41,517] {scheduler_job.py:155} INFO - Started process (PID=107) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:41,519] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:04:41,519] {logging_mixin.py:112} INFO - [2021-08-03 07:04:41,519] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:41,539] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:41,559] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:04:41,571] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:04:41,574] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.057 seconds
+[2021-08-03 07:04:42,514] {scheduler_job.py:155} INFO - Started process (PID=113) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:42,516] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:04:42,517] {logging_mixin.py:112} INFO - [2021-08-03 07:04:42,517] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:42,534] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:42,556] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:04:42,569] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:04:42,574] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.060 seconds
+[2021-08-03 07:04:43,539] {scheduler_job.py:155} INFO - Started process (PID=115) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:43,541] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:04:43,542] {logging_mixin.py:112} INFO - [2021-08-03 07:04:43,542] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:43,561] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:43,584] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:04:43,593] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:04:43,596] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.057 seconds
+[2021-08-03 07:04:44,549] {scheduler_job.py:155} INFO - Started process (PID=121) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:44,551] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:04:44,552] {logging_mixin.py:112} INFO - [2021-08-03 07:04:44,552] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:44,568] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:44,595] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:04:44,605] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:04:44,608] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.059 seconds
+[2021-08-03 07:04:45,556] {scheduler_job.py:155} INFO - Started process (PID=123) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:45,559] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:04:45,560] {logging_mixin.py:112} INFO - [2021-08-03 07:04:45,560] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:45,581] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:45,629] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:04:45,651] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:04:45,654] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.098 seconds
+[2021-08-03 07:04:46,570] {scheduler_job.py:155} INFO - Started process (PID=125) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:46,572] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:04:46,572] {logging_mixin.py:112} INFO - [2021-08-03 07:04:46,572] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:46,588] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:46,622] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:04:46,650] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:04:46,655] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.085 seconds
+[2021-08-03 07:04:47,581] {scheduler_job.py:155} INFO - Started process (PID=127) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:47,583] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:04:47,584] {logging_mixin.py:112} INFO - [2021-08-03 07:04:47,584] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:47,599] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:47,617] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:04:47,627] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:04:47,629] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.048 seconds
+[2021-08-03 07:04:48,603] {scheduler_job.py:155} INFO - Started process (PID=129) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:48,605] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:04:48,606] {logging_mixin.py:112} INFO - [2021-08-03 07:04:48,605] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:48,622] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:48,652] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:04:48,664] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:04:48,667] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.064 seconds
+[2021-08-03 07:04:49,616] {scheduler_job.py:155} INFO - Started process (PID=131) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:49,618] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:04:49,619] {logging_mixin.py:112} INFO - [2021-08-03 07:04:49,619] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:49,632] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:49,666] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:04:49,679] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:04:49,682] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.066 seconds
+[2021-08-03 07:04:50,631] {scheduler_job.py:155} INFO - Started process (PID=133) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:50,632] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:04:50,633] {logging_mixin.py:112} INFO - [2021-08-03 07:04:50,633] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:50,648] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:50,680] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:04:50,695] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:04:50,698] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.067 seconds
+[2021-08-03 07:04:51,646] {scheduler_job.py:155} INFO - Started process (PID=135) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:51,648] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:04:51,649] {logging_mixin.py:112} INFO - [2021-08-03 07:04:51,649] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:51,665] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:51,692] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:04:51,703] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:04:51,708] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.062 seconds
+[2021-08-03 07:04:52,653] {scheduler_job.py:155} INFO - Started process (PID=137) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:52,655] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:04:52,656] {logging_mixin.py:112} INFO - [2021-08-03 07:04:52,656] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:52,670] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:52,694] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:04:52,705] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:04:52,708] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.055 seconds
+[2021-08-03 07:04:53,663] {scheduler_job.py:155} INFO - Started process (PID=139) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:53,666] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:04:53,666] {logging_mixin.py:112} INFO - [2021-08-03 07:04:53,666] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:53,684] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:53,714] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:04:53,724] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:04:53,726] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.063 seconds
+[2021-08-03 07:04:54,675] {scheduler_job.py:155} INFO - Started process (PID=141) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:54,677] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:04:54,678] {logging_mixin.py:112} INFO - [2021-08-03 07:04:54,678] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:54,696] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:54,725] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:04:54,736] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:04:54,739] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.064 seconds
+[2021-08-03 07:04:55,697] {scheduler_job.py:155} INFO - Started process (PID=143) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:55,699] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:04:55,700] {logging_mixin.py:112} INFO - [2021-08-03 07:04:55,700] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:55,715] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:55,744] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:04:55,755] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:04:55,758] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.061 seconds
+[2021-08-03 07:04:56,709] {scheduler_job.py:155} INFO - Started process (PID=145) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:56,712] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:04:56,712] {logging_mixin.py:112} INFO - [2021-08-03 07:04:56,712] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:56,729] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:56,751] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:04:56,763] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:04:56,768] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.058 seconds
+[2021-08-03 07:04:57,719] {scheduler_job.py:155} INFO - Started process (PID=147) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:57,721] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:04:57,721] {logging_mixin.py:112} INFO - [2021-08-03 07:04:57,721] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:57,737] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:57,757] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:04:57,768] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:04:57,771] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.052 seconds
+[2021-08-03 07:04:58,722] {scheduler_job.py:155} INFO - Started process (PID=149) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:58,725] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:04:58,726] {logging_mixin.py:112} INFO - [2021-08-03 07:04:58,725] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:58,743] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:58,766] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:04:58,780] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:04:58,783] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.060 seconds
+[2021-08-03 07:04:59,730] {scheduler_job.py:155} INFO - Started process (PID=151) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:59,732] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:04:59,732] {logging_mixin.py:112} INFO - [2021-08-03 07:04:59,732] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:59,749] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:04:59,769] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:04:59,781] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:04:59,783] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.054 seconds
+[2021-08-03 07:05:00,736] {scheduler_job.py:155} INFO - Started process (PID=153) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:00,738] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:00,739] {logging_mixin.py:112} INFO - [2021-08-03 07:05:00,739] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:00,757] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:00,777] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:00,791] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:00,794] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.057 seconds
+[2021-08-03 07:05:01,750] {scheduler_job.py:155} INFO - Started process (PID=155) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:01,752] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:01,753] {logging_mixin.py:112} INFO - [2021-08-03 07:05:01,752] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:01,771] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:01,794] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:01,806] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:01,809] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.059 seconds
+[2021-08-03 07:05:02,756] {scheduler_job.py:155} INFO - Started process (PID=157) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:02,758] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:02,759] {logging_mixin.py:112} INFO - [2021-08-03 07:05:02,759] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:02,777] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:02,802] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:02,814] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:02,816] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.060 seconds
+[2021-08-03 07:05:03,779] {scheduler_job.py:155} INFO - Started process (PID=159) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:03,781] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:03,782] {logging_mixin.py:112} INFO - [2021-08-03 07:05:03,782] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:03,800] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:03,827] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:03,840] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:03,843] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.065 seconds
+[2021-08-03 07:05:04,822] {scheduler_job.py:155} INFO - Started process (PID=161) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:04,824] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:04,824] {logging_mixin.py:112} INFO - [2021-08-03 07:05:04,824] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:04,844] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:04,870] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:04,879] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:04,882] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.061 seconds
+[2021-08-03 07:05:05,822] {scheduler_job.py:155} INFO - Started process (PID=163) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:05,824] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:05,825] {logging_mixin.py:112} INFO - [2021-08-03 07:05:05,825] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:05,840] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:05,868] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:05,880] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:05,883] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.061 seconds
+[2021-08-03 07:05:06,852] {scheduler_job.py:155} INFO - Started process (PID=165) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:06,855] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:06,855] {logging_mixin.py:112} INFO - [2021-08-03 07:05:06,855] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:06,873] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:06,895] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:06,908] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:06,912] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.060 seconds
+[2021-08-03 07:05:07,869] {scheduler_job.py:155} INFO - Started process (PID=167) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:07,871] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:07,872] {logging_mixin.py:112} INFO - [2021-08-03 07:05:07,872] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:07,888] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:07,914] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:07,925] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:07,928] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.059 seconds
+[2021-08-03 07:05:08,874] {scheduler_job.py:155} INFO - Started process (PID=169) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:08,876] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:08,877] {logging_mixin.py:112} INFO - [2021-08-03 07:05:08,877] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:08,896] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:08,926] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:08,936] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:08,938] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.064 seconds
+[2021-08-03 07:05:09,885] {scheduler_job.py:155} INFO - Started process (PID=171) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:09,888] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:09,888] {logging_mixin.py:112} INFO - [2021-08-03 07:05:09,888] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:09,905] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:09,933] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:09,944] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:09,947] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.062 seconds
+[2021-08-03 07:05:10,889] {scheduler_job.py:155} INFO - Started process (PID=173) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:10,892] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:10,893] {logging_mixin.py:112} INFO - [2021-08-03 07:05:10,893] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:10,911] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:10,937] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:10,955] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:10,958] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.069 seconds
+[2021-08-03 07:05:11,917] {scheduler_job.py:155} INFO - Started process (PID=175) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:11,919] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:11,920] {logging_mixin.py:112} INFO - [2021-08-03 07:05:11,920] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:11,939] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:11,959] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:11,972] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:11,975] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.058 seconds
+[2021-08-03 07:05:12,930] {scheduler_job.py:155} INFO - Started process (PID=177) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:12,931] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:12,932] {logging_mixin.py:112} INFO - [2021-08-03 07:05:12,932] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:12,950] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:12,979] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:12,992] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:12,994] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.065 seconds
+[2021-08-03 07:05:13,934] {scheduler_job.py:155} INFO - Started process (PID=179) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:13,936] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:13,937] {logging_mixin.py:112} INFO - [2021-08-03 07:05:13,937] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:13,955] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:13,975] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:13,985] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:13,988] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.054 seconds
+[2021-08-03 07:05:14,949] {scheduler_job.py:155} INFO - Started process (PID=181) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:14,952] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:14,952] {logging_mixin.py:112} INFO - [2021-08-03 07:05:14,952] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:14,970] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:15,000] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:15,011] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:15,014] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.064 seconds
+[2021-08-03 07:05:15,953] {scheduler_job.py:155} INFO - Started process (PID=183) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:15,955] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:15,956] {logging_mixin.py:112} INFO - [2021-08-03 07:05:15,956] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:15,970] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:16,012] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:16,046] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:16,053] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.100 seconds
+[2021-08-03 07:05:16,967] {scheduler_job.py:155} INFO - Started process (PID=185) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:16,969] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:16,969] {logging_mixin.py:112} INFO - [2021-08-03 07:05:16,969] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:16,989] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:17,024] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:17,037] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:17,041] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.074 seconds
+[2021-08-03 07:05:17,967] {scheduler_job.py:155} INFO - Started process (PID=187) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:17,971] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:17,971] {logging_mixin.py:112} INFO - [2021-08-03 07:05:17,971] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:17,987] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:18,015] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:18,027] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:18,030] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.063 seconds
+[2021-08-03 07:05:18,974] {scheduler_job.py:155} INFO - Started process (PID=189) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:18,976] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:18,976] {logging_mixin.py:112} INFO - [2021-08-03 07:05:18,976] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:18,993] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:19,018] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:19,035] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:19,038] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.064 seconds
+[2021-08-03 07:05:19,987] {scheduler_job.py:155} INFO - Started process (PID=191) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:19,989] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:19,989] {logging_mixin.py:112} INFO - [2021-08-03 07:05:19,989] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:20,007] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:20,031] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:20,042] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:20,047] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.060 seconds
+[2021-08-03 07:05:21,007] {scheduler_job.py:155} INFO - Started process (PID=193) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:21,009] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:21,010] {logging_mixin.py:112} INFO - [2021-08-03 07:05:21,010] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:21,025] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:21,061] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:21,081] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:21,084] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.077 seconds
+[2021-08-03 07:05:22,006] {scheduler_job.py:155} INFO - Started process (PID=195) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:22,009] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:22,009] {logging_mixin.py:112} INFO - [2021-08-03 07:05:22,009] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:22,026] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:22,050] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:22,062] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:22,064] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.058 seconds
+[2021-08-03 07:05:23,016] {scheduler_job.py:155} INFO - Started process (PID=197) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:23,017] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:23,018] {logging_mixin.py:112} INFO - [2021-08-03 07:05:23,018] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:23,030] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:23,061] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:23,072] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:23,074] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.058 seconds
+[2021-08-03 07:05:24,020] {scheduler_job.py:155} INFO - Started process (PID=199) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:24,022] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:24,023] {logging_mixin.py:112} INFO - [2021-08-03 07:05:24,023] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:24,041] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:24,062] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:24,076] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:24,079] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.059 seconds
+[2021-08-03 07:05:25,032] {scheduler_job.py:155} INFO - Started process (PID=201) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:25,034] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:25,035] {logging_mixin.py:112} INFO - [2021-08-03 07:05:25,035] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:25,053] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:25,090] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:25,102] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:25,105] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.073 seconds
+[2021-08-03 07:05:26,034] {scheduler_job.py:155} INFO - Started process (PID=203) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:26,036] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:26,036] {logging_mixin.py:112} INFO - [2021-08-03 07:05:26,036] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:26,050] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:26,082] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:26,094] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:26,098] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.064 seconds
+[2021-08-03 07:05:27,041] {scheduler_job.py:155} INFO - Started process (PID=205) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:27,042] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:27,043] {logging_mixin.py:112} INFO - [2021-08-03 07:05:27,043] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:27,059] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:27,087] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:27,097] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:27,101] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.060 seconds
+[2021-08-03 07:05:28,061] {scheduler_job.py:155} INFO - Started process (PID=207) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:28,063] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:28,064] {logging_mixin.py:112} INFO - [2021-08-03 07:05:28,064] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:28,082] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:28,106] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:28,119] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:28,122] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.061 seconds
+[2021-08-03 07:05:29,069] {scheduler_job.py:155} INFO - Started process (PID=209) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:29,071] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:29,071] {logging_mixin.py:112} INFO - [2021-08-03 07:05:29,071] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:29,086] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:29,115] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:29,124] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:29,127] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.058 seconds
+[2021-08-03 07:05:30,076] {scheduler_job.py:155} INFO - Started process (PID=211) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:30,079] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:30,080] {logging_mixin.py:112} INFO - [2021-08-03 07:05:30,080] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:30,098] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:30,125] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:30,136] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:30,139] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.064 seconds
+[2021-08-03 07:05:31,087] {scheduler_job.py:155} INFO - Started process (PID=213) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:31,091] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:31,091] {logging_mixin.py:112} INFO - [2021-08-03 07:05:31,091] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:31,104] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:31,127] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:31,140] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:31,143] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.057 seconds
+[2021-08-03 07:05:32,093] {scheduler_job.py:155} INFO - Started process (PID=215) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:32,096] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:32,096] {logging_mixin.py:112} INFO - [2021-08-03 07:05:32,096] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:32,111] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:32,154] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:32,164] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:32,166] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.073 seconds
+[2021-08-03 07:05:33,099] {scheduler_job.py:155} INFO - Started process (PID=217) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:33,103] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:33,104] {logging_mixin.py:112} INFO - [2021-08-03 07:05:33,104] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:33,120] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:33,141] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:33,153] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:33,157] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.058 seconds
+[2021-08-03 07:05:34,127] {scheduler_job.py:155} INFO - Started process (PID=219) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:34,129] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:34,130] {logging_mixin.py:112} INFO - [2021-08-03 07:05:34,130] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:34,148] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:34,171] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:34,182] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:34,184] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.057 seconds
+[2021-08-03 07:05:35,131] {scheduler_job.py:155} INFO - Started process (PID=221) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:35,135] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:35,136] {logging_mixin.py:112} INFO - [2021-08-03 07:05:35,136] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:35,154] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:35,178] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:35,190] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:35,193] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.062 seconds
+[2021-08-03 07:05:36,155] {scheduler_job.py:155} INFO - Started process (PID=223) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:36,157] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:36,158] {logging_mixin.py:112} INFO - [2021-08-03 07:05:36,158] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:36,173] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:36,199] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:36,210] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:36,213] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.058 seconds
+[2021-08-03 07:05:37,178] {scheduler_job.py:155} INFO - Started process (PID=225) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:37,181] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:37,182] {logging_mixin.py:112} INFO - [2021-08-03 07:05:37,182] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:37,200] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:37,224] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:37,236] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:37,240] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.062 seconds
+[2021-08-03 07:05:38,184] {scheduler_job.py:155} INFO - Started process (PID=227) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:38,186] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:38,187] {logging_mixin.py:112} INFO - [2021-08-03 07:05:38,187] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:38,203] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:38,233] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:38,245] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:38,249] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.065 seconds
+[2021-08-03 07:05:39,215] {scheduler_job.py:155} INFO - Started process (PID=229) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:39,217] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:39,218] {logging_mixin.py:112} INFO - [2021-08-03 07:05:39,218] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:39,233] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:39,259] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:39,270] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:39,273] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.058 seconds
+[2021-08-03 07:05:40,212] {scheduler_job.py:155} INFO - Started process (PID=231) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:40,215] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:40,216] {logging_mixin.py:112} INFO - [2021-08-03 07:05:40,215] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:40,231] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:40,267] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:40,278] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:40,280] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.069 seconds
+[2021-08-03 07:05:41,218] {scheduler_job.py:155} INFO - Started process (PID=233) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:41,222] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:41,222] {logging_mixin.py:112} INFO - [2021-08-03 07:05:41,222] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:41,237] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:41,259] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:41,273] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:41,277] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.059 seconds
+[2021-08-03 07:05:42,226] {scheduler_job.py:155} INFO - Started process (PID=235) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:42,229] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:42,230] {logging_mixin.py:112} INFO - [2021-08-03 07:05:42,230] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:42,248] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:42,281] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:42,296] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:42,299] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.073 seconds
+[2021-08-03 07:05:43,234] {scheduler_job.py:155} INFO - Started process (PID=237) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:43,236] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:43,237] {logging_mixin.py:112} INFO - [2021-08-03 07:05:43,237] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:43,251] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:43,287] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:43,297] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:43,301] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.067 seconds
+[2021-08-03 07:05:44,244] {scheduler_job.py:155} INFO - Started process (PID=239) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:44,247] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:44,247] {logging_mixin.py:112} INFO - [2021-08-03 07:05:44,247] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:44,262] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:44,295] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:44,307] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:44,310] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.065 seconds
+[2021-08-03 07:05:45,260] {scheduler_job.py:155} INFO - Started process (PID=241) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:45,263] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:45,263] {logging_mixin.py:112} INFO - [2021-08-03 07:05:45,263] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:45,281] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:45,299] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:45,310] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:45,312] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.052 seconds
+[2021-08-03 07:05:46,271] {scheduler_job.py:155} INFO - Started process (PID=243) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:46,276] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:46,287] {logging_mixin.py:112} INFO - [2021-08-03 07:05:46,286] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:46,296] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:46,331] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:46,343] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:46,345] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.074 seconds
+[2021-08-03 07:05:47,276] {scheduler_job.py:155} INFO - Started process (PID=245) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:47,279] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:47,280] {logging_mixin.py:112} INFO - [2021-08-03 07:05:47,279] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:47,298] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:47,321] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:47,330] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:47,332] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.056 seconds
+[2021-08-03 07:05:48,285] {scheduler_job.py:155} INFO - Started process (PID=247) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:48,287] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:48,288] {logging_mixin.py:112} INFO - [2021-08-03 07:05:48,288] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:48,303] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:48,333] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:48,343] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:48,346] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.061 seconds
+[2021-08-03 07:05:49,284] {scheduler_job.py:155} INFO - Started process (PID=249) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:49,288] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:49,289] {logging_mixin.py:112} INFO - [2021-08-03 07:05:49,289] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:49,302] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:49,341] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:49,358] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:49,361] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.076 seconds
+[2021-08-03 07:05:50,289] {scheduler_job.py:155} INFO - Started process (PID=251) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:50,293] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:50,295] {logging_mixin.py:112} INFO - [2021-08-03 07:05:50,295] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:50,311] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:50,343] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:50,353] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:50,355] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.066 seconds
+[2021-08-03 07:05:51,313] {scheduler_job.py:155} INFO - Started process (PID=253) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:51,316] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:51,316] {logging_mixin.py:112} INFO - [2021-08-03 07:05:51,316] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:51,336] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:51,369] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:51,382] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:51,387] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.073 seconds
+[2021-08-03 07:05:52,315] {scheduler_job.py:155} INFO - Started process (PID=255) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:52,318] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:52,319] {logging_mixin.py:112} INFO - [2021-08-03 07:05:52,319] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:52,334] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:52,360] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:52,370] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:52,372] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.056 seconds
+[2021-08-03 07:05:53,318] {scheduler_job.py:155} INFO - Started process (PID=257) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:53,320] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:53,320] {logging_mixin.py:112} INFO - [2021-08-03 07:05:53,320] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:53,335] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:53,368] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:53,378] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:53,380] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.063 seconds
+[2021-08-03 07:05:54,325] {scheduler_job.py:155} INFO - Started process (PID=259) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:54,327] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:54,328] {logging_mixin.py:112} INFO - [2021-08-03 07:05:54,327] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:54,339] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:54,373] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:54,387] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:54,391] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.066 seconds
+[2021-08-03 07:05:55,347] {scheduler_job.py:155} INFO - Started process (PID=261) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:55,350] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:55,350] {logging_mixin.py:112} INFO - [2021-08-03 07:05:55,350] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:55,363] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:55,398] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:55,414] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:55,417] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.070 seconds
+[2021-08-03 07:05:56,355] {scheduler_job.py:155} INFO - Started process (PID=263) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:56,357] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:56,358] {logging_mixin.py:112} INFO - [2021-08-03 07:05:56,357] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:56,371] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:56,407] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:56,416] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:56,419] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.064 seconds
+[2021-08-03 07:05:57,364] {scheduler_job.py:155} INFO - Started process (PID=265) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:57,367] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:57,368] {logging_mixin.py:112} INFO - [2021-08-03 07:05:57,368] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:57,383] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:57,408] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:57,417] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:57,420] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.056 seconds
+[2021-08-03 07:05:58,369] {scheduler_job.py:155} INFO - Started process (PID=267) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:58,371] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:58,372] {logging_mixin.py:112} INFO - [2021-08-03 07:05:58,372] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:58,386] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:58,415] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:58,425] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:58,428] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.059 seconds
+[2021-08-03 07:05:59,373] {scheduler_job.py:155} INFO - Started process (PID=269) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:59,375] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:05:59,376] {logging_mixin.py:112} INFO - [2021-08-03 07:05:59,376] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:59,390] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:05:59,432] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:05:59,444] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:05:59,447] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.074 seconds
+[2021-08-03 07:06:00,385] {scheduler_job.py:155} INFO - Started process (PID=271) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:00,388] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:00,388] {logging_mixin.py:112} INFO - [2021-08-03 07:06:00,388] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:00,403] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:00,433] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:00,450] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:00,452] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.067 seconds
+[2021-08-03 07:06:01,390] {scheduler_job.py:155} INFO - Started process (PID=273) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:01,394] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:01,395] {logging_mixin.py:112} INFO - [2021-08-03 07:06:01,395] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:01,407] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:01,430] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:01,443] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:01,448] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.057 seconds
+[2021-08-03 07:06:02,395] {scheduler_job.py:155} INFO - Started process (PID=275) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:02,398] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:02,399] {logging_mixin.py:112} INFO - [2021-08-03 07:06:02,399] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:02,416] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:02,464] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:02,478] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:02,481] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.086 seconds
+[2021-08-03 07:06:03,420] {scheduler_job.py:155} INFO - Started process (PID=277) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:03,422] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:03,423] {logging_mixin.py:112} INFO - [2021-08-03 07:06:03,423] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:03,436] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:03,474] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:03,486] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:03,489] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.069 seconds
+[2021-08-03 07:06:04,446] {scheduler_job.py:155} INFO - Started process (PID=279) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:04,449] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:04,450] {logging_mixin.py:112} INFO - [2021-08-03 07:06:04,450] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:04,471] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:04,495] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:04,509] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:04,513] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.068 seconds
+[2021-08-03 07:06:05,450] {scheduler_job.py:155} INFO - Started process (PID=281) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:05,453] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:05,453] {logging_mixin.py:112} INFO - [2021-08-03 07:06:05,453] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:05,474] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:05,497] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:05,508] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:05,511] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.061 seconds
+[2021-08-03 07:06:06,469] {scheduler_job.py:155} INFO - Started process (PID=283) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:06,472] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:06,473] {logging_mixin.py:112} INFO - [2021-08-03 07:06:06,473] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:06,487] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:06,510] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:06,522] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:06,525] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.056 seconds
+[2021-08-03 07:06:07,470] {scheduler_job.py:155} INFO - Started process (PID=285) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:07,473] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:07,473] {logging_mixin.py:112} INFO - [2021-08-03 07:06:07,473] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:07,487] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:07,505] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:07,516] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:07,518] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.048 seconds
+[2021-08-03 07:06:08,477] {scheduler_job.py:155} INFO - Started process (PID=287) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:08,480] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:08,480] {logging_mixin.py:112} INFO - [2021-08-03 07:06:08,480] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:08,500] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:08,535] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:08,555] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:08,559] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.082 seconds
+[2021-08-03 07:06:09,481] {scheduler_job.py:155} INFO - Started process (PID=289) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:09,485] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:09,485] {logging_mixin.py:112} INFO - [2021-08-03 07:06:09,485] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:09,508] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:09,538] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:09,554] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:09,558] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.077 seconds
+[2021-08-03 07:06:10,492] {scheduler_job.py:155} INFO - Started process (PID=291) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:10,495] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:10,496] {logging_mixin.py:112} INFO - [2021-08-03 07:06:10,496] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:10,522] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:10,564] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:10,588] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:10,595] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.104 seconds
+[2021-08-03 07:06:11,504] {scheduler_job.py:155} INFO - Started process (PID=293) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:11,509] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:11,510] {logging_mixin.py:112} INFO - [2021-08-03 07:06:11,510] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:11,548] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:11,626] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:11,657] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:11,666] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.162 seconds
+[2021-08-03 07:06:12,573] {scheduler_job.py:155} INFO - Started process (PID=295) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:12,588] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:12,595] {logging_mixin.py:112} INFO - [2021-08-03 07:06:12,593] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:12,657] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:12,720] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:12,753] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:12,762] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.190 seconds
+[2021-08-03 07:06:13,555] {scheduler_job.py:155} INFO - Started process (PID=297) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:13,563] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:13,565] {logging_mixin.py:112} INFO - [2021-08-03 07:06:13,565] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:13,610] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:13,723] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:13,776] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:13,783] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.228 seconds
+[2021-08-03 07:06:14,563] {scheduler_job.py:155} INFO - Started process (PID=299) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:14,572] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:14,574] {logging_mixin.py:112} INFO - [2021-08-03 07:06:14,573] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:14,622] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:14,689] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:14,722] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:14,736] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.173 seconds
+[2021-08-03 07:06:15,566] {scheduler_job.py:155} INFO - Started process (PID=301) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:15,570] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:15,571] {logging_mixin.py:112} INFO - [2021-08-03 07:06:15,571] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:15,593] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:15,637] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:15,659] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:15,663] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.097 seconds
+[2021-08-03 07:06:16,584] {scheduler_job.py:155} INFO - Started process (PID=303) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:16,594] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:16,595] {logging_mixin.py:112} INFO - [2021-08-03 07:06:16,595] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:16,642] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:16,742] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:16,760] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:16,765] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.182 seconds
+[2021-08-03 07:06:17,585] {scheduler_job.py:155} INFO - Started process (PID=305) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:17,590] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:17,591] {logging_mixin.py:112} INFO - [2021-08-03 07:06:17,591] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:17,611] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:17,655] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:17,691] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:17,695] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.111 seconds
+[2021-08-03 07:06:18,584] {scheduler_job.py:155} INFO - Started process (PID=307) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:18,589] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:18,589] {logging_mixin.py:112} INFO - [2021-08-03 07:06:18,589] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:18,612] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:18,644] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:18,657] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:18,660] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.076 seconds
+[2021-08-03 07:06:19,597] {scheduler_job.py:155} INFO - Started process (PID=309) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:19,599] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:19,600] {logging_mixin.py:112} INFO - [2021-08-03 07:06:19,600] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:19,617] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:19,637] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:19,649] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:19,654] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.057 seconds
+[2021-08-03 07:06:20,610] {scheduler_job.py:155} INFO - Started process (PID=311) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:20,613] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:20,613] {logging_mixin.py:112} INFO - [2021-08-03 07:06:20,613] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:20,632] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:20,653] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:20,669] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:20,672] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.061 seconds
+[2021-08-03 07:06:21,612] {scheduler_job.py:155} INFO - Started process (PID=313) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:21,615] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:21,616] {logging_mixin.py:112} INFO - [2021-08-03 07:06:21,616] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:21,632] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:21,656] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:21,670] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:21,673] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.061 seconds
+[2021-08-03 07:06:22,618] {scheduler_job.py:155} INFO - Started process (PID=315) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:22,627] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:22,628] {logging_mixin.py:112} INFO - [2021-08-03 07:06:22,628] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:22,645] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:22,669] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:22,689] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:22,692] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.075 seconds
+[2021-08-03 07:06:23,628] {scheduler_job.py:155} INFO - Started process (PID=317) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:23,631] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:23,631] {logging_mixin.py:112} INFO - [2021-08-03 07:06:23,631] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:23,649] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:23,683] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:23,698] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:23,701] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.073 seconds
+[2021-08-03 07:06:24,636] {scheduler_job.py:155} INFO - Started process (PID=319) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:24,638] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:24,640] {logging_mixin.py:112} INFO - [2021-08-03 07:06:24,640] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:24,655] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:24,686] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:24,698] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:24,702] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.067 seconds
+[2021-08-03 07:06:25,647] {scheduler_job.py:155} INFO - Started process (PID=321) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:25,649] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:25,650] {logging_mixin.py:112} INFO - [2021-08-03 07:06:25,650] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:25,669] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:25,698] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:25,712] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:25,716] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.069 seconds
+[2021-08-03 07:06:26,662] {scheduler_job.py:155} INFO - Started process (PID=323) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:26,664] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:26,665] {logging_mixin.py:112} INFO - [2021-08-03 07:06:26,664] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:26,683] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:26,706] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:26,723] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:26,725] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.064 seconds
+[2021-08-03 07:06:27,662] {scheduler_job.py:155} INFO - Started process (PID=325) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:27,666] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:27,667] {logging_mixin.py:112} INFO - [2021-08-03 07:06:27,667] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:27,678] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:27,718] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:27,734] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:27,737] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.076 seconds
+[2021-08-03 07:06:28,667] {scheduler_job.py:155} INFO - Started process (PID=327) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:28,669] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:28,670] {logging_mixin.py:112} INFO - [2021-08-03 07:06:28,670] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:28,681] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:28,719] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:28,731] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:28,734] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.067 seconds
+[2021-08-03 07:06:29,680] {scheduler_job.py:155} INFO - Started process (PID=329) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:29,682] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:29,683] {logging_mixin.py:112} INFO - [2021-08-03 07:06:29,683] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:29,703] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:29,732] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:29,747] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:29,750] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.070 seconds
+[2021-08-03 07:06:30,684] {scheduler_job.py:155} INFO - Started process (PID=331) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:30,686] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:30,686] {logging_mixin.py:112} INFO - [2021-08-03 07:06:30,686] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:30,703] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:30,734] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:30,746] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:30,749] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.065 seconds
+[2021-08-03 07:06:31,689] {scheduler_job.py:155} INFO - Started process (PID=333) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:31,691] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:31,691] {logging_mixin.py:112} INFO - [2021-08-03 07:06:31,691] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:31,711] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:31,730] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:31,745] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:31,748] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.059 seconds
+[2021-08-03 07:06:32,699] {scheduler_job.py:155} INFO - Started process (PID=335) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:32,704] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:32,705] {logging_mixin.py:112} INFO - [2021-08-03 07:06:32,705] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:32,718] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:32,752] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:32,763] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:32,766] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.066 seconds
+[2021-08-03 07:06:33,703] {scheduler_job.py:155} INFO - Started process (PID=337) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:33,705] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:33,705] {logging_mixin.py:112} INFO - [2021-08-03 07:06:33,705] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:33,718] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:33,759] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:33,778] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:33,781] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.078 seconds
+[2021-08-03 07:06:34,725] {scheduler_job.py:155} INFO - Started process (PID=339) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:34,728] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:34,729] {logging_mixin.py:112} INFO - [2021-08-03 07:06:34,729] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:34,742] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:34,773] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:34,784] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:34,786] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.061 seconds
+[2021-08-03 07:06:35,741] {scheduler_job.py:155} INFO - Started process (PID=341) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:35,743] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:35,744] {logging_mixin.py:112} INFO - [2021-08-03 07:06:35,744] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:35,761] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:35,788] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:35,797] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:35,799] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.058 seconds
+[2021-08-03 07:06:36,751] {scheduler_job.py:155} INFO - Started process (PID=343) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:36,752] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:36,753] {logging_mixin.py:112} INFO - [2021-08-03 07:06:36,753] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:36,770] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:36,790] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:36,803] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:36,805] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.055 seconds
+[2021-08-03 07:06:37,753] {scheduler_job.py:155} INFO - Started process (PID=345) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:37,755] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:37,755] {logging_mixin.py:112} INFO - [2021-08-03 07:06:37,755] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:37,770] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:37,797] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:37,809] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:37,812] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.059 seconds
+[2021-08-03 07:06:38,760] {scheduler_job.py:155} INFO - Started process (PID=347) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:38,762] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:38,763] {logging_mixin.py:112} INFO - [2021-08-03 07:06:38,763] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:38,776] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:38,810] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:38,826] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:38,830] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.070 seconds
+[2021-08-03 07:06:39,780] {scheduler_job.py:155} INFO - Started process (PID=349) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:39,783] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:39,784] {logging_mixin.py:112} INFO - [2021-08-03 07:06:39,784] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:39,802] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:39,828] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:39,842] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:39,846] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.065 seconds
+[2021-08-03 07:06:40,798] {scheduler_job.py:155} INFO - Started process (PID=351) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:40,801] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:40,801] {logging_mixin.py:112} INFO - [2021-08-03 07:06:40,801] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:40,818] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:40,848] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:40,859] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:40,861] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.063 seconds
+[2021-08-03 07:06:41,815] {scheduler_job.py:155} INFO - Started process (PID=353) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:41,817] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:41,817] {logging_mixin.py:112} INFO - [2021-08-03 07:06:41,817] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:41,837] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:41,858] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:41,872] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:41,875] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.060 seconds
+[2021-08-03 07:06:42,827] {scheduler_job.py:155} INFO - Started process (PID=355) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:42,829] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:42,829] {logging_mixin.py:112} INFO - [2021-08-03 07:06:42,829] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:42,848] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:42,868] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:42,878] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:42,881] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.055 seconds
+[2021-08-03 07:06:43,827] {scheduler_job.py:155} INFO - Started process (PID=357) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:43,829] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:43,829] {logging_mixin.py:112} INFO - [2021-08-03 07:06:43,829] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:43,844] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:43,877] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:43,887] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:43,890] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.063 seconds
+[2021-08-03 07:06:44,844] {scheduler_job.py:155} INFO - Started process (PID=359) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:44,846] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:44,847] {logging_mixin.py:112} INFO - [2021-08-03 07:06:44,847] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:44,867] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:44,888] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:44,898] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:44,901] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.058 seconds
+[2021-08-03 07:06:45,866] {scheduler_job.py:155} INFO - Started process (PID=361) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:45,869] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:45,869] {logging_mixin.py:112} INFO - [2021-08-03 07:06:45,869] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:45,886] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:45,911] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:45,923] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:45,927] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.060 seconds
+[2021-08-03 07:06:46,877] {scheduler_job.py:155} INFO - Started process (PID=363) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:46,879] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:46,880] {logging_mixin.py:112} INFO - [2021-08-03 07:06:46,880] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:46,898] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:46,918] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:46,930] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:46,934] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.057 seconds
+[2021-08-03 07:06:47,886] {scheduler_job.py:155} INFO - Started process (PID=365) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:47,888] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:47,889] {logging_mixin.py:112} INFO - [2021-08-03 07:06:47,889] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:47,905] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:47,938] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:47,951] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:47,954] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.067 seconds
+[2021-08-03 07:06:48,909] {scheduler_job.py:155} INFO - Started process (PID=367) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:48,912] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:48,912] {logging_mixin.py:112} INFO - [2021-08-03 07:06:48,912] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:48,933] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:48,956] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:48,967] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:48,970] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.060 seconds
+[2021-08-03 07:06:49,935] {scheduler_job.py:155} INFO - Started process (PID=369) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:49,937] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:49,938] {logging_mixin.py:112} INFO - [2021-08-03 07:06:49,938] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:49,956] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:49,985] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:49,996] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:49,999] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.063 seconds
+[2021-08-03 07:06:50,940] {scheduler_job.py:155} INFO - Started process (PID=371) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:50,943] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:50,943] {logging_mixin.py:112} INFO - [2021-08-03 07:06:50,943] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:50,959] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:50,988] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:50,998] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:51,000] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.061 seconds
+[2021-08-03 07:06:51,954] {scheduler_job.py:155} INFO - Started process (PID=373) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:51,957] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:51,957] {logging_mixin.py:112} INFO - [2021-08-03 07:06:51,957] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:51,972] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:52,005] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:52,015] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:52,018] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.064 seconds
+[2021-08-03 07:06:52,978] {scheduler_job.py:155} INFO - Started process (PID=375) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:52,980] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:52,981] {logging_mixin.py:112} INFO - [2021-08-03 07:06:52,980] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:52,998] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:53,022] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:53,031] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:53,033] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.056 seconds
+[2021-08-03 07:06:54,003] {scheduler_job.py:155} INFO - Started process (PID=377) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:54,008] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:54,009] {logging_mixin.py:112} INFO - [2021-08-03 07:06:54,009] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:54,026] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:54,048] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:54,060] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:54,066] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.063 seconds
+[2021-08-03 07:06:55,013] {scheduler_job.py:155} INFO - Started process (PID=379) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:55,015] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:55,015] {logging_mixin.py:112} INFO - [2021-08-03 07:06:55,015] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:55,036] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:55,061] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:55,075] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:55,078] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.065 seconds
+[2021-08-03 07:06:56,021] {scheduler_job.py:155} INFO - Started process (PID=381) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:56,024] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:56,024] {logging_mixin.py:112} INFO - [2021-08-03 07:06:56,024] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:56,048] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:56,083] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:56,102] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:56,105] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.085 seconds
+[2021-08-03 07:06:57,027] {scheduler_job.py:155} INFO - Started process (PID=383) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:57,029] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:57,029] {logging_mixin.py:112} INFO - [2021-08-03 07:06:57,029] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:57,044] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:57,073] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:57,084] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:57,087] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.060 seconds
+[2021-08-03 07:06:58,033] {scheduler_job.py:155} INFO - Started process (PID=385) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:58,038] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:58,041] {logging_mixin.py:112} INFO - [2021-08-03 07:06:58,040] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:58,052] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:58,085] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:58,097] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:58,099] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.066 seconds
+[2021-08-03 07:06:59,066] {scheduler_job.py:155} INFO - Started process (PID=387) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:59,069] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:06:59,069] {logging_mixin.py:112} INFO - [2021-08-03 07:06:59,069] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:59,090] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:06:59,110] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:06:59,122] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:06:59,125] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.059 seconds
+[2021-08-03 07:07:00,060] {scheduler_job.py:155} INFO - Started process (PID=389) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:00,061] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:07:00,062] {logging_mixin.py:112} INFO - [2021-08-03 07:07:00,062] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:00,078] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:00,107] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:07:00,119] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:07:00,122] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.063 seconds
+[2021-08-03 07:07:01,073] {scheduler_job.py:155} INFO - Started process (PID=391) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:01,075] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:07:01,076] {logging_mixin.py:112} INFO - [2021-08-03 07:07:01,076] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:01,095] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:01,121] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:07:01,137] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:07:01,141] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.068 seconds
+[2021-08-03 07:07:02,088] {scheduler_job.py:155} INFO - Started process (PID=393) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:02,091] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:07:02,092] {logging_mixin.py:112} INFO - [2021-08-03 07:07:02,092] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:02,113] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:02,134] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:07:02,147] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:07:02,150] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.062 seconds
+[2021-08-03 07:07:03,089] {scheduler_job.py:155} INFO - Started process (PID=395) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:03,091] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:07:03,092] {logging_mixin.py:112} INFO - [2021-08-03 07:07:03,091] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:03,110] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:03,131] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:07:03,142] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:07:03,144] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.056 seconds
+[2021-08-03 07:07:04,099] {scheduler_job.py:155} INFO - Started process (PID=397) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:04,101] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:07:04,101] {logging_mixin.py:112} INFO - [2021-08-03 07:07:04,101] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:04,116] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:04,147] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:07:04,158] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:07:04,161] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.062 seconds
+[2021-08-03 07:07:05,102] {scheduler_job.py:155} INFO - Started process (PID=399) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:05,104] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:07:05,105] {logging_mixin.py:112} INFO - [2021-08-03 07:07:05,104] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:05,119] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:05,160] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:07:05,176] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:07:05,180] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.078 seconds
+[2021-08-03 07:07:06,123] {scheduler_job.py:155} INFO - Started process (PID=401) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:06,125] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:07:06,126] {logging_mixin.py:112} INFO - [2021-08-03 07:07:06,126] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:06,144] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:06,170] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:07:06,181] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:07:06,186] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.063 seconds
+[2021-08-03 07:07:07,126] {scheduler_job.py:155} INFO - Started process (PID=403) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:07,128] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:07:07,129] {logging_mixin.py:112} INFO - [2021-08-03 07:07:07,129] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:07,145] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:07,165] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:07:07,176] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:07:07,179] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.052 seconds
+[2021-08-03 07:07:08,133] {scheduler_job.py:155} INFO - Started process (PID=405) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:08,134] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:07:08,135] {logging_mixin.py:112} INFO - [2021-08-03 07:07:08,135] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:08,149] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:08,179] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:07:08,189] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:07:08,192] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.059 seconds
+[2021-08-03 07:07:09,140] {scheduler_job.py:155} INFO - Started process (PID=407) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:09,142] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:07:09,143] {logging_mixin.py:112} INFO - [2021-08-03 07:07:09,143] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:09,163] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:09,182] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:07:09,194] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:07:09,198] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.058 seconds
+[2021-08-03 07:07:10,145] {scheduler_job.py:155} INFO - Started process (PID=409) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:10,147] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:07:10,147] {logging_mixin.py:112} INFO - [2021-08-03 07:07:10,147] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:10,163] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:10,184] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:07:10,197] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:07:10,200] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.055 seconds
+[2021-08-03 07:07:11,166] {scheduler_job.py:155} INFO - Started process (PID=411) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:11,169] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:07:11,170] {logging_mixin.py:112} INFO - [2021-08-03 07:07:11,170] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:11,184] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:11,215] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:07:11,227] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:07:11,229] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.063 seconds
+[2021-08-03 07:07:12,167] {scheduler_job.py:155} INFO - Started process (PID=413) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:12,169] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:07:12,169] {logging_mixin.py:112} INFO - [2021-08-03 07:07:12,169] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:12,183] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:12,210] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:07:12,223] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:07:12,226] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.059 seconds
+[2021-08-03 07:07:13,173] {scheduler_job.py:155} INFO - Started process (PID=415) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:13,174] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:07:13,175] {logging_mixin.py:112} INFO - [2021-08-03 07:07:13,174] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:13,190] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:13,222] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:07:13,234] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:07:13,238] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.066 seconds
+[2021-08-03 07:07:14,184] {scheduler_job.py:155} INFO - Started process (PID=417) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:14,186] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:07:14,186] {logging_mixin.py:112} INFO - [2021-08-03 07:07:14,186] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:14,198] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:14,230] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:07:14,245] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:07:14,248] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.064 seconds
+[2021-08-03 07:07:15,191] {scheduler_job.py:155} INFO - Started process (PID=419) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:15,193] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:07:15,194] {logging_mixin.py:112} INFO - [2021-08-03 07:07:15,194] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:15,209] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:15,238] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:07:15,247] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:07:15,249] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.058 seconds
+[2021-08-03 07:07:16,203] {scheduler_job.py:155} INFO - Started process (PID=421) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:16,205] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:07:16,205] {logging_mixin.py:112} INFO - [2021-08-03 07:07:16,205] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:16,220] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:16,251] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:07:16,261] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:07:16,264] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.060 seconds
+[2021-08-03 07:07:17,215] {scheduler_job.py:155} INFO - Started process (PID=423) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:17,217] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:07:17,218] {logging_mixin.py:112} INFO - [2021-08-03 07:07:17,218] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:17,236] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:17,257] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:07:17,269] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:07:17,272] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.057 seconds
+[2021-08-03 07:07:18,221] {scheduler_job.py:155} INFO - Started process (PID=425) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:18,225] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:07:18,226] {logging_mixin.py:112} INFO - [2021-08-03 07:07:18,225] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:18,241] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:18,271] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:07:18,280] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:07:18,282] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.061 seconds
+[2021-08-03 07:07:19,230] {scheduler_job.py:155} INFO - Started process (PID=427) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:19,232] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:07:19,233] {logging_mixin.py:112} INFO - [2021-08-03 07:07:19,232] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:19,251] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:19,276] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:07:19,285] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:07:19,287] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.057 seconds
+[2021-08-03 07:07:20,229] {scheduler_job.py:155} INFO - Started process (PID=429) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:20,233] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:07:20,234] {logging_mixin.py:112} INFO - [2021-08-03 07:07:20,234] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:20,251] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:20,282] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:07:20,293] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:07:20,296] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.067 seconds
+[2021-08-03 07:07:21,247] {scheduler_job.py:155} INFO - Started process (PID=431) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:21,250] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:07:21,251] {logging_mixin.py:112} INFO - [2021-08-03 07:07:21,251] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:21,270] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:21,312] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:07:21,326] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:07:21,329] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.082 seconds
+[2021-08-03 07:07:22,255] {scheduler_job.py:155} INFO - Started process (PID=433) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:22,257] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:07:22,257] {logging_mixin.py:112} INFO - [2021-08-03 07:07:22,257] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:22,275] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:22,311] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:07:22,325] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:07:22,329] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.074 seconds
+[2021-08-03 07:07:23,258] {scheduler_job.py:155} INFO - Started process (PID=435) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:23,260] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:07:23,261] {logging_mixin.py:112} INFO - [2021-08-03 07:07:23,261] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:23,276] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:23,308] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:07:23,318] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:07:23,322] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.063 seconds
+[2021-08-03 07:07:24,266] {scheduler_job.py:155} INFO - Started process (PID=437) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:24,268] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:07:24,268] {logging_mixin.py:112} INFO - [2021-08-03 07:07:24,268] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:24,283] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:24,306] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:07:24,320] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:07:24,323] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.057 seconds
+[2021-08-03 07:07:25,280] {scheduler_job.py:155} INFO - Started process (PID=439) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:25,282] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:07:25,283] {logging_mixin.py:112} INFO - [2021-08-03 07:07:25,283] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:25,301] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:25,324] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:07:25,334] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:07:25,337] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.057 seconds
+[2021-08-03 07:07:26,303] {scheduler_job.py:155} INFO - Started process (PID=441) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:26,305] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:07:26,306] {logging_mixin.py:112} INFO - [2021-08-03 07:07:26,306] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:26,324] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:26,344] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:07:26,358] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:07:26,360] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.057 seconds
+[2021-08-03 07:07:27,321] {scheduler_job.py:155} INFO - Started process (PID=443) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:27,323] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:07:27,324] {logging_mixin.py:112} INFO - [2021-08-03 07:07:27,324] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:27,344] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:27,366] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:07:27,376] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:07:27,381] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.061 seconds
+[2021-08-03 07:07:28,332] {scheduler_job.py:155} INFO - Started process (PID=445) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:28,334] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:07:28,335] {logging_mixin.py:112} INFO - [2021-08-03 07:07:28,335] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:28,350] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:28,379] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:07:28,390] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:07:28,393] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.060 seconds
+[2021-08-03 07:07:29,354] {scheduler_job.py:155} INFO - Started process (PID=447) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:29,357] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:07:29,358] {logging_mixin.py:112} INFO - [2021-08-03 07:07:29,358] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:29,378] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:29,402] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:07:29,413] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:07:29,416] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.062 seconds
+[2021-08-03 07:07:30,352] {scheduler_job.py:155} INFO - Started process (PID=449) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:30,354] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:07:30,355] {logging_mixin.py:112} INFO - [2021-08-03 07:07:30,355] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:30,370] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:30,400] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:07:30,410] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:07:30,412] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.060 seconds
+[2021-08-03 07:07:31,374] {scheduler_job.py:155} INFO - Started process (PID=451) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:31,377] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:07:31,377] {logging_mixin.py:112} INFO - [2021-08-03 07:07:31,377] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:31,393] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:31,411] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:07:31,420] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:07:31,423] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.049 seconds
+[2021-08-03 07:07:32,382] {scheduler_job.py:155} INFO - Started process (PID=453) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:32,383] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:07:32,384] {logging_mixin.py:112} INFO - [2021-08-03 07:07:32,383] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:32,398] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:32,426] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:07:32,437] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:07:32,439] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.058 seconds
+[2021-08-03 07:07:33,392] {scheduler_job.py:155} INFO - Started process (PID=455) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:33,394] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:07:33,394] {logging_mixin.py:112} INFO - [2021-08-03 07:07:33,394] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:33,407] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:33,442] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:07:33,452] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:07:33,455] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.063 seconds
+[2021-08-03 07:07:34,396] {scheduler_job.py:155} INFO - Started process (PID=457) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:34,398] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:07:34,398] {logging_mixin.py:112} INFO - [2021-08-03 07:07:34,398] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:34,413] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:34,451] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:07:34,468] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:07:34,471] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.075 seconds
+[2021-08-03 07:07:35,412] {scheduler_job.py:155} INFO - Started process (PID=459) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:35,415] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:07:35,416] {logging_mixin.py:112} INFO - [2021-08-03 07:07:35,416] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:35,431] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:35,451] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:07:35,463] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:07:35,466] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.054 seconds
+[2021-08-03 07:07:36,445] {scheduler_job.py:155} INFO - Started process (PID=461) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:36,447] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:07:36,448] {logging_mixin.py:112} INFO - [2021-08-03 07:07:36,448] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:36,467] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:36,488] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:07:36,501] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:07:36,504] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.059 seconds
+[2021-08-03 07:07:37,451] {scheduler_job.py:155} INFO - Started process (PID=463) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:37,454] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:07:37,454] {logging_mixin.py:112} INFO - [2021-08-03 07:07:37,454] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:37,473] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:37,494] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:07:37,505] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:07:37,508] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.057 seconds
+[2021-08-03 07:07:38,455] {scheduler_job.py:155} INFO - Started process (PID=465) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:38,456] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:07:38,457] {logging_mixin.py:112} INFO - [2021-08-03 07:07:38,457] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:38,471] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:38,505] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:07:38,515] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:07:38,518] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.063 seconds
+[2021-08-03 07:07:39,474] {scheduler_job.py:155} INFO - Started process (PID=467) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:39,476] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:07:39,476] {logging_mixin.py:112} INFO - [2021-08-03 07:07:39,476] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:39,492] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:39,522] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:07:39,532] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:07:39,535] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.061 seconds
+[2021-08-03 07:07:40,489] {scheduler_job.py:155} INFO - Started process (PID=469) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:40,491] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:07:40,491] {logging_mixin.py:112} INFO - [2021-08-03 07:07:40,491] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:40,507] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:40,537] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:07:40,549] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:07:40,552] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.063 seconds
+[2021-08-03 07:07:41,503] {scheduler_job.py:155} INFO - Started process (PID=471) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:41,508] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:07:41,508] {logging_mixin.py:112} INFO - [2021-08-03 07:07:41,508] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:41,526] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:41,547] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:07:41,561] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:07:41,563] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.060 seconds
+[2021-08-03 07:07:42,516] {scheduler_job.py:155} INFO - Started process (PID=473) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:42,519] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:07:42,519] {logging_mixin.py:112} INFO - [2021-08-03 07:07:42,519] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:42,539] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:42,575] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:07:42,586] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:07:42,589] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.073 seconds
+[2021-08-03 07:07:43,528] {scheduler_job.py:155} INFO - Started process (PID=475) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:43,530] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:07:43,530] {logging_mixin.py:112} INFO - [2021-08-03 07:07:43,530] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:43,548] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:43,575] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:07:43,586] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:07:43,588] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.061 seconds
+[2021-08-03 07:07:44,545] {scheduler_job.py:155} INFO - Started process (PID=477) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:44,547] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:07:44,548] {logging_mixin.py:112} INFO - [2021-08-03 07:07:44,548] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:44,571] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:44,600] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:07:44,612] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:07:44,615] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.070 seconds
+[2021-08-03 07:07:45,545] {scheduler_job.py:155} INFO - Started process (PID=479) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:45,548] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:07:45,549] {logging_mixin.py:112} INFO - [2021-08-03 07:07:45,548] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:45,562] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:45,595] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:07:45,605] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:07:45,607] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.063 seconds
+[2021-08-03 07:07:46,556] {scheduler_job.py:155} INFO - Started process (PID=481) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:46,559] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:07:46,559] {logging_mixin.py:112} INFO - [2021-08-03 07:07:46,559] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:46,585] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:46,605] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:07:46,617] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:07:46,621] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.065 seconds
+[2021-08-03 07:07:47,560] {scheduler_job.py:155} INFO - Started process (PID=483) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:47,565] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:07:47,567] {logging_mixin.py:112} INFO - [2021-08-03 07:07:47,567] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:47,578] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:47,612] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:07:47,623] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:07:47,625] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.065 seconds
+[2021-08-03 07:07:48,576] {scheduler_job.py:155} INFO - Started process (PID=485) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:48,578] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:07:48,579] {logging_mixin.py:112} INFO - [2021-08-03 07:07:48,579] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:48,594] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:48,623] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:07:48,634] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:07:48,637] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.061 seconds
+[2021-08-03 07:07:49,585] {scheduler_job.py:155} INFO - Started process (PID=487) to work on /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:49,587] {scheduler_job.py:1589} INFO - Processing file /usr/local/airflow/dags/logger_dag.py for tasks to queue
+[2021-08-03 07:07:49,588] {logging_mixin.py:112} INFO - [2021-08-03 07:07:49,588] {dagbag.py:417} INFO - Filling up the DagBag from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:49,609] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['logger_dag']) retrieved from /usr/local/airflow/dags/logger_dag.py
+[2021-08-03 07:07:49,632] {scheduler_job.py:1305} INFO - Processing logger_dag
+[2021-08-03 07:07:49,647] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: logger_dag> because no tasks in DAG have SLAs
+[2021-08-03 07:07:49,650] {scheduler_job.py:163} INFO - Processing /usr/local/airflow/dags/logger_dag.py took 0.065 seconds
