@@ -3,8 +3,8 @@
 ### Project Description:
 
 In this project we look to set up Airflow monitoring using ELK stack. We will set up the stack using 
-docker image.Airflow can not write logs directly into ES but can read from ES. 
-Airflow writes data to local and we use file beat installed on worker node
+docker image.Airflow can not write logs directly into ElasticSearch but can read from ElasticSearch. 
+Airflow writes data to local in json format and we use file beat installed on worker node
 to send data to logstatsh which then transforms the data and then sends 
 it to ES.We configure Kibana to connect to our EC2 instance and we will draw dashboards for monitoring our Airflow instance.
 
