@@ -6,7 +6,7 @@ In this project we look to set up Airflow monitoring using ELK stack. We will se
 docker image.Airflow can not write logs directly into ElasticSearch but can read from ElasticSearch. 
 Airflow writes data to local in json format and we use file beat installed on worker node
 to send data to logstatsh which then transforms the data and then sends 
-it to ES.We configure Kibana to connect to our EC2 instance and we will draw dashboards for monitoring our Airflow instance.
+it to ES.We configure Kibana to connect to ElasticSearch Instance and we will draw dashboards for monitoring our Airflow instance.
 
 
 ### Architecture:
@@ -19,10 +19,13 @@ it to ES.We configure Kibana to connect to our EC2 instance and we will draw das
 
 *Build Docker Image*
 
-Move to the directory where you have cloned this repo locally and bring up the docker image
+Open command prompt and move to the directory where you have cloned this repo locally and bring up the docker images using the below command
 
 ![img.png](images/docker-up.png)
 
+
+Post running above command you can see the docker images up and running. If you don't have Docker Dashboard installed you can also just run `docker ps` to see the running 
+docker containers.
 
 ![img.png](images/docker-running-images.png)
 
@@ -45,6 +48,7 @@ if any issues in accessing the below links check your firewall exceptions settin
 `http://localhost:5601/`
 
 ![img.png](images/kibana.png)
+
 
 
 *Airflow*
@@ -91,6 +95,8 @@ so that we have some logs to play around with in Kibana.
 
 ![img.png](images/dag-runs.png)
 
+
+
 Go to Management from right side navigation pane as shown in the screen shot below
 
 
@@ -113,7 +119,7 @@ Once created you can see the mappings in the index
 
 ![img.png](images/kibana-5.png)
 
-Go to Discover page from left hand side and you can see the log event details
+Go to Discover page from left hand side and you can see the log event details (this also confirms that our logs are flowing into ES as we are able to see the fresh logs in Kibana which is connected to the ES instance)
 
 ![img.png](images/kibana-6.png)
 
