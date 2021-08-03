@@ -137,6 +137,12 @@ Created a couple of visualizations for seeing task health(tracking `number of fa
 
 ![img.png](images/kibana-9.png)
 
+
+
 Final DashBoard
 
+Shows the health of tasks by monitoring the `number of failed task runs`
+
 ![img.png](images/kibana-10.png)
+
+
